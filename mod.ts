@@ -1,5 +1,6 @@
-import Job from "./src/job.ts";
+import { JobSpec } from "./src/job_spec.ts";
+import { StepSpec } from "./src/step_spec.ts";
 import Workflow from "./src/workflow.ts";
-import Step from "./src/step.ts";
 
-export { Job, Workflow, Step };
+export { Workflow };
+export type { JobSpec, StepSpec };

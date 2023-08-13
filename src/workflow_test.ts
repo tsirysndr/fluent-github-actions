@@ -1,6 +1,6 @@
 import { assertEquals } from "https://deno.land/std@0.191.0/testing/asserts.ts";
 import Workflow from "./workflow.ts";
-import { JobSpec } from "./workflow_spec.ts";
+import { JobSpec } from "./job_spec.ts";
 
 Deno.test(function workflowTest() {
   const workflow = new Workflow("Codecov");

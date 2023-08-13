@@ -1,5 +1,4 @@
-import { Workflow } from "../mod.ts";
-import { JobSpec } from "../src/workflow_spec.ts";
+import { Workflow, JobSpec } from "../mod.ts";
 
 const workflow = new Workflow("Codecov");
 

@@ -1,6 +1,7 @@
 import { stringify } from "https://esm.sh/yaml@v2.3.1";
-import WorkflowSpec, { JobSpec } from "./workflow_spec.ts";
+import WorkflowSpec from "./workflow_spec.ts";
 import { EventSpec } from "./event.ts";
+import { JobSpec } from "./job_spec.ts";
 
 class Workflow {
   private yaml: WorkflowSpec;
