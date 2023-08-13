@@ -1,4 +1,7 @@
-import { Workflow, JobSpec } from "../mod.ts";
+import {
+  Workflow,
+  JobSpec,
+} from "https://deno.land/x/fluent_github_actions@v0.1.0/mod.ts";
 
 const workflow = new Workflow("Codecov");
 

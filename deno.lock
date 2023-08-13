@@ -5,6 +5,12 @@
     "https://deno.land/std@0.191.0/testing/_diff.ts": "1a3c044aedf77647d6cac86b798c6417603361b66b54c53331b312caeb447aea",
     "https://deno.land/std@0.191.0/testing/_format.ts": "a69126e8a469009adf4cf2a50af889aca364c349797e63174884a52ff75cf4c7",
     "https://deno.land/std@0.191.0/testing/asserts.ts": "e16d98b4d73ffc4ed498d717307a12500ae4f2cbe668f1a215632d19fcffc22f",
+    "https://deno.land/x/fluent_github_actions@v0.1.0/mod.ts": "dc62b622791da77bc27f68e33cba618983a0770a9a12dcc9e0f9a61161bb90e5",
+    "https://deno.land/x/fluent_github_actions@v0.1.0/src/event.ts": "c31430af085682cb4ad522c655a8a0800a3ab8b8aec7c979d60c909051d853b0",
+    "https://deno.land/x/fluent_github_actions@v0.1.0/src/job_spec.ts": "ee7af83e75285b4776ff4f9e14764187737178b4abc6c277da1c32491c41dfca",
+    "https://deno.land/x/fluent_github_actions@v0.1.0/src/step_spec.ts": "3207071b5dee8487f36fe4ea1881e8fd3b77c472c965c20a14093a3c919af9af",
+    "https://deno.land/x/fluent_github_actions@v0.1.0/src/workflow.ts": "0f5114328208d8bdb04f016c78f31ab61e53ce1aee08cbf0cb6dc8bd32aea78b",
+    "https://deno.land/x/fluent_github_actions@v0.1.0/src/workflow_spec.ts": "3ca9e565dc1dedd0531e0b852d50b9a3853a1ad35f2010760e0326590b80fa43",
     "https://esm.sh/v130/yaml@2.3.1/denonext/yaml.mjs": "71f677b4bfc69271af9d98db5194e354f9a1863955e208e26d32a9ef78bd89f5",
     "https://esm.sh/yaml@v2.3.1": "9f8730b9d2fdb4d9320be0c0e62d57936097826342588991d561ae35555aca55"
   },
