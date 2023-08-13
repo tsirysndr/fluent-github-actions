@@ -97,6 +97,9 @@ export const test = async (
 
   await ctr.file("/app/coverage.lcov").export("./coverage.lcov");
 
+  // sleep for 3 second to ensure that the file is written
+  await new Promise((resolve) => setTimeout(resolve, 3000));
+
   console.log(result);
 };
 
