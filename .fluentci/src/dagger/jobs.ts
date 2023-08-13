@@ -93,9 +93,9 @@ export const test = async (
     .withExec(command)
     .withExec(["sh", "-c", "deno coverage ./coverage --lcov > coverage.lcov"]);
 
-  await ctr.file("/app/coverage.lcov").export("./coverage.lcov");
-
   const result = await ctr.stdout();
+
+  await ctr.file("/app/coverage.lcov").export("./coverage.lcov");
 
   console.log(result);
 };
