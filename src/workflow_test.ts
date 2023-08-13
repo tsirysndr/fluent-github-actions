@@ -23,7 +23,7 @@ Deno.test(function workflowTest() {
       },
       {
         name: "Create coverage files",
-        run: "deno test --coverage=coverage",
+        run: "deno test --allow-read --coverage=coverage --lock-write",
       },
       {
         name: "Create coverage report",
