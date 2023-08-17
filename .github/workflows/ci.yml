@@ -20,8 +20,6 @@ jobs:
             curl -L https://dl.dagger.io/dagger/install.sh | DAGGER_VERSION=0.8.1 sh
             sudo mv bin/dagger /usr/local/bin
             dagger version
-      - name: List Jobs
-        run: fluentci ls .
       - name: Run Dagger Pipelines
         run: dagger run fluentci . fmt lint test
       - name: Upload to Codecov
