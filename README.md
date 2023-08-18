@@ -12,7 +12,7 @@ Fluent Github Actions is a deno module for generating Github Actions Workflow co
 import {
   Workflow,
   JobSpec,
-} from "https://deno.land/x/fluent_github_actions@v0.1.1/mod.ts";
+} from "https://deno.land/x/fluent_github_actions@v0.2.0/mod.ts";
 
 const workflow = new Workflow("Codecov");
 
