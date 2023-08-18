@@ -1,7 +1,7 @@
 import { stringify } from "https://esm.sh/yaml@v2.3.1";
 import WorkflowSpec from "./workflow_spec.ts";
-import { EventSpec } from "./event.ts";
-import { JobSpec } from "./job_spec.ts";
+import { EventSpec, EventSpecSchema } from "./event.ts";
+import { JobSpec, JobSpecSchema } from "./job_spec.ts";
 
 class Workflow {
   private yaml: WorkflowSpec;
@@ -19,16 +19,21 @@ class Workflow {
   }
 
   on(event: EventSpec): Workflow {
+    EventSpecSchema.parse(event);
     this.yaml.on = event;
     return this;
   }
 
   withJob(jobId: string, job: JobSpec): Workflow {
+    JobSpecSchema.parse(job);
     this.yaml.jobs[jobId] = job;
     return this;
   }
 
   jobs(value: { [jobId: string]: JobSpec }): Workflow {
+    for (const jobId in value) {
+      JobSpecSchema.parse(value[jobId]);
+    }
     this.yaml.jobs = value;
     return this;
   }
