@@ -1,4 +1,4 @@
-import { z } from "https://deno.land/x/zod@v3.22.1/mod.ts";
+import { z } from "../deps.ts";
 
 export const StepSpecSchema = z.object({
   name: z.string().optional(),

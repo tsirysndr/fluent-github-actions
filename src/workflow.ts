@@ -1,4 +1,4 @@
-import { stringify } from "https://esm.sh/yaml@v2.3.1";
+import { stringify } from "../deps.ts";
 import WorkflowSpec from "./workflow_spec.ts";
 import { EventSpec, EventSpecSchema } from "./event.ts";
 import { JobSpec, JobSpecSchema } from "./job_spec.ts";

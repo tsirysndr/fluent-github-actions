@@ -1,4 +1,4 @@
-import { z } from "https://deno.land/x/zod@v3.22.1/mod.ts";
+import { z } from "../deps.ts";
 
 import { EventSpecSchema } from "./event.ts";
 import { JobSpecSchema } from "./job_spec.ts";
